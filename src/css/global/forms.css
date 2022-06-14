@@ -64,6 +64,13 @@ form button:hover {
 
 @media (max-width: 500px) {
   form input {
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 350px) {
+  form input {
     width: 250px;
   }
 }
