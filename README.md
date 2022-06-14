@@ -1,6 +1,6 @@
 # 🏠 Homeyou
 
-Projeto da comunidade Codelândia, feito apenas em HTML e CSS, com o objetivo de criar uma página para uma empresa fictícia de aluguel e venda de imóveis, utilizando Flexbox e Grid layout.
+Projeto da comunidade Codelândia, feito apenas em HTML e CSS, com o objetivo de criar uma página para uma empresa fictícia de aluguel e venda de imóveis, utilizando Flexbox e Grid layout. O projeto está responsivo para todas as telas.
 
 ## 🔨 FERRAMENTAS
 - HTML5
