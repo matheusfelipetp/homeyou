@@ -1,6 +1,6 @@
 .footer {
   background: #f9f9f9;
-  padding: 120px 0;
+  padding: 120px 20px;
   box-sizing: border-box;
 }
 
@@ -34,4 +34,18 @@
 .footer__info a:hover {
   color: #575555;
   transition: 0.3s ease;
+}
+
+@media (max-width: 800px) {
+  .footer {
+    background: #f9f9f9;
+    padding: 60px 20px;
+  }
+  .footer__content {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+.footer__info li {
+  margin-bottom: 8px;
+}
 }

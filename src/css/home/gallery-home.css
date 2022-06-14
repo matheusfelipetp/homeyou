@@ -1,6 +1,6 @@
 .article__gallery {
   background: #f9f9f9;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .gallery__content {
@@ -42,4 +42,18 @@
 .gallery__img img:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .article__gallery {
+    padding: 30px 20px;
+  }
+  .gallery__content p {
+    font-size: 1rem;
+    max-width: 50ch;
+    margin-bottom: 20px;
+  }
+  .gallery__img {
+    gap: 8px;
+  }
 }

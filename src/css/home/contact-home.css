@@ -1,5 +1,5 @@
 .article__contact {
-  padding: 80px 0;
+  padding: 80px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,4 +19,27 @@
   font-size: 1.125rem;
   line-height: 1.2;
   margin-bottom: 12px;
+}
+
+@media (max-width: 800px) {
+  .article__contact {
+    padding: 40px 20px;
+  }
+  .article__contact p {
+    max-width: 40ch;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .article__contact p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .article__contact p {
+    max-width: 40ch;
+    text-align: center;
+  }
 }

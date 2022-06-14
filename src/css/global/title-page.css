@@ -1,6 +1,6 @@
 .title-page {
   background: #f9f9f9;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .title-page span {
@@ -16,4 +16,10 @@
   font-size: 2.5rem;
   line-height: 1.2;
   color: #272727;
+}
+
+@media (max-width: 600px) {
+  .title-page h1 {
+    font-size: 2rem;
+  }
 }

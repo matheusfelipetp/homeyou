@@ -1,5 +1,5 @@
 .terms {
-  padding: 60px 0;
+  padding: 60px 20px;
   display: grid;
   gap: 30px;
 }
@@ -19,4 +19,19 @@
   color: #575555;
   max-width: 80ch;
   margin-bottom: 32px;
+}
+
+@media (max-width: 800px) {
+  .terms {
+    padding: 30px 20px;
+  }
+  .terms__info p {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .terms__info p {
+    font-size: 0.8rem;
+  }
 }

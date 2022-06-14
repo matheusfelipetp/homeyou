@@ -2,16 +2,38 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 16px;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .gallery img {
   width: 100%;
   transition: 0.3s ease;
   border-radius: 4px;
+  object-fit: cover;
 }
 
 .gallery img:hover {
   transform: scale(1.02);
   transition: 0.3s ease;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .gallery figure:nth-child(4),
+  .gallery figure:nth-child(5),
+  .gallery figure:nth-child(6),
+  .gallery figure:nth-child(7),
+  .gallery figure:nth-child(8),
+  .gallery figure:nth-child(9) {
+    display: none;
+  }
 }
