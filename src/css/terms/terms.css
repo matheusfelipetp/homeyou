@@ -1,0 +1,22 @@
+.terms {
+  padding: 60px 0;
+  display: grid;
+  gap: 30px;
+}
+
+.terms__info h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: #272727;
+  margin-bottom: 20px;
+}
+
+.terms__info p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #575555;
+  max-width: 80ch;
+  margin-bottom: 32px;
+}

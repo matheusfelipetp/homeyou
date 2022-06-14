@@ -1,0 +1,37 @@
+.contact{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  margin: 120px auto;
+}
+
+.contact__img img {
+  width: 100%;
+  box-shadow: -50px -50px #272727;
+  border-radius: 4px;
+}
+
+.contact__info h2 {
+  color: #272727;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 32px;
+}
+
+.contact__info p {
+  margin-top: 20px;
+  color: #575555;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.2;
+}
+
+.contact__info p a {
+  color: #272727;
+}
+
+.contact__info p a:hover {
+  color: #575555;
+}
